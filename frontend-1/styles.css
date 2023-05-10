@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400&subset=latin,latin-ext);
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-family: 'Raleway';
+    background-color: var(--c1);
+}
+:root {
+    --c1: #BCD4DE;
+    --c2: #A5CCD1;
+    --c3: #A0B9BF;
+    --c4: #9DACB2;
+    --c5: #949BA0;
+}
+
+/* Base CSS */
+.main-box {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 40%;
+    margin: 5vh auto;
+    padding: 2%;
+    text-align: center;
+    background-color: var(--c5);
+}
+.main-box h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 2%;
+}
+.main-box p {
+    margin: 2%;
+}
+.main-box button {
+    background-color: var(--c2);
+    border: 1px solid white;
+    border-radius: 7px;
+    padding: 1.25% 4%;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.main-box button:hover,
+.main-box button:focus {
+    cursor: pointer;
+    background-color: var(--c1);
+}
+
+/* Counter CSS */
+#counter-num {
+    font-size: 30px;
+}
+
+/* List CSS */
+#text-input {
+    border: 1px solid white;
+    border-radius: 7px;
+    padding: 1.25% 4%;
+    font-size: 20px;
+}
+#list-area {
+    width: 50%;
+    margin: 2vh auto;
+    font-size: 20px;
+}
