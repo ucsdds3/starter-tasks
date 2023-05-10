@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400&subset=latin,latin-ext);
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Raleway';
+}
+
+/* Layout */
+.sc-card {
+    height: 100vh;
+}
+
+/* Entry */
+#entry {
+    background-image: url('assets/pool.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#entry-title {
+    font-size: 100px;
+    text-align: center;
+    padding-top: 35vh;
+    color: white;
+}
+
+/* Middle */
+#service-title {
+    font-size: 100px;
+    text-align: center;
+    padding: 5vh;  
+}
+
+#middle {
+    height: 110vh;
+}
+
+#card-row {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: 95vw;
+    margin: auto;
+    margin-top: 15vh;
+}
+
+.card {
+    flex: 1;
+    margin: auto;
+    text-align: center;
+    box-shadow: rgba(60, 64, 67, 0.406) 0px 1px 2px 0px, rgba(60, 64, 67, 0.416) 0px 2px 6px 2px;
+    padding: 3% 0;
+    width: 100px;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.card p {
+    width: 40%;
+    margin: auto;
+    padding: 1%;
+}
+
+.card:hover {
+    box-shadow: rgba(15, 15, 16, 0.774) 0px 1px 2px 0px, rgba(34, 35, 35, 0.637) 0px 2px 6px 2px;
+    cursor: pointer;
+}
+
+
+/* Bottom */
+#bottom {
+    background-color: rgb(121, 179, 242);
+}
+
+#bottom-title {
+    font-size: 100px;
+    text-align: center;
+    padding-top: 20vh;
+    color: white;
+}
+
+#post-section {
+    width: 30%;
+    background-color: white;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 5%;
+    padding: 4% 0;
+    text-align: center;
+}
+
+#post-section input {
+    font-size: 20px;
+    padding: 1% 2%;
+}
+
+#post-section button {
+    font-size: 17px;
+    padding: 3% 10%;
+    margin-top: 5%;
+    background-color: rgb(121, 179, 242);
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    transition: 0.3s;
+}
+
+#post-section button:hover {
+    background-color: white;
+    cursor: pointer;
+    color: rgb(121, 179, 242);
+    border: 1px solid rgb(121, 179, 242);
+}

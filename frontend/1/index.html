@@ -4,26 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="styles.css">
-    <script src="app.js" defer></script>
-    <title>DS3 Starter Task</title>
+    <title>Frontend Starter Task - 1</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="counter" class="main-box">
-        <h2>Clicker</h2>
-        <p>Click the button to increase the counter</p>
-        <p  id="counter-num">0</p>
-        <button id="count-button">Increment</button>
+    <div id="entry" class="sc-card">
+        <h1 id="entry-title">North Coast Aquatics</h1>
     </div>
-    <div id="list" class="main-box">
-        <h2>List</h2>
-        <p>Enter some text and press Add to add items to the list</p>
-        <input id="text-input">
-        <button id="list-button">Add</button>
-        <ul id="list-area">
-            <li>Text</li>
-        </ul>
+    <div class="sc-card" id="middle">
+        <h2 id="service-title">Our Services</h2>
+        <div id="card-row">
+            <div class="card">
+                <h3>Coaching</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, repellat.</p>
+            </div>
+            <div class="card">
+                <h3>Competitions</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, repellat.</p>
+            </div>
+            <div class="card">
+                <h3>Weights</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, repellat.</p>
+            </div>
+        </div>
+    </div>
+    <div class="sc-card" id="bottom">
+        <h2 id="bottom-title">Get in Contact!</h2>
+        <div id="post-section">
+            <input type="text" placeholder="user@email.com">
+            <button>Sign me up!</button>
+        </div>
     </div>
 </body>
 </html>
