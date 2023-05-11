@@ -2,6 +2,7 @@
 
 ## Backend Tasks
 1. Simple CRUD App (JS) - [Link](./1)
+2. Simple CRUD App (Python) - [Link](./2)
 
 ## Testing
 In general, you will be implementing various methods on the server. Due to this, we need a way to test our methods. 

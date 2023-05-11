@@ -110,6 +110,7 @@ npm install --save-dev nodemo
 
 ## HTTP Methods
 ### `GET`
+The `GET` method will query the database and return all items. Authentication is not required.
 - **Request Details**
 	- Query Parameters: None
 	- Headers: None
@@ -150,6 +151,7 @@ npm install --save-dev nodemo
 ```
 
 ### `POST`
+The `POST` method will add an additional item to the database. Authentication is required in the form of a query parameter of `key`. The value should be set to `sample_key` and if it is not, should return an error. The JSON data of the additional item to be added will be put into the body (see example below). In addition, the `Content-Type` in the headers should be set to `application/json`.
 - **Request Details**
 	- Query Parameters: 
 		- `key`: `sample_key`
@@ -211,6 +213,7 @@ npm install --save-dev nodemo
 ```
 
 ### `DELETE`
+The `DELETE` method will remove all entries of books with the provided title. Authentication is required in the form of a query parameter of `key`. The value should be set to `sample_key` and if it is not, should return an error. An additional query parameter of `title` should be present in the request. The value will be set to the target of deletion.
 - **Request Details**
 	- Query Parameters: 
 		- `key`: `sample_key`

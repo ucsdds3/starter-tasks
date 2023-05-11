@@ -8,6 +8,7 @@ This repository/website contains tasks and trainings for members new to DS3 to c
 	3. Updating the DOM - [Link](./frontend/3)
 - [Backend Tasks](./backend)
 	1. Simple CRUD App (JS) - [Link](./backend/1)
+	2. Simple CRUD App (Python) - [Link](./backend/2)
 - Fullstack Tasks
 	- <*TBD*>
 
