@@ -27,6 +27,7 @@ Receiving objects: 100% (3/3), done.
 $ cd temp
 ```
 2. Install  [Node.js](https://nodejs.org/en) if you do not already have it. Create your express app following the steps [here](https://expressjs.com/en/starter/generator.html).
+
 ```bash
 $ npx express-generator
 
