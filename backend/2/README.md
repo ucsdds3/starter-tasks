@@ -27,6 +27,7 @@ Receiving objects: 100% (3/3), done.
 $ cd temp
 ```
 2. If you do not yet have Python, install it from [here](https://www.python.org/downloads/). At the time of writing, I am using "Python 3.11.0". Create a Python virtual environment using `venv` and activate it.    
+
 ```bash
 python3 -m venv venv
 source venv/Scripts/activate
