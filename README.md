@@ -16,7 +16,7 @@ This repository/website contains tasks and trainings for members new to DS3 to c
 - [Frontend Tutorials](./frontend/tutorials)
 	1. Flexbox Starter - [Link](./frontend/tutorials/1)
 	2. JavaScript Starter - [Link](./frontend/tutorials/2)
-- Backend Tutorials
+- [Backend Tutorials](./backend/tutorials)
 	1. Using Postman - [Link](./backend/tutorials/1)
 - Fullstack Tutorials
 	- <*TBD*>
