@@ -1,8 +1,14 @@
 # Using Postman
-This tutorial will walk you through Postman and how to use various aspects of it. If you are looking for instructions to install Postman, see [the backend page](/backend).
+This tutorial will walk you through Postman and how to use various aspects of it. If you are looking for instructions to install Postman, see [the backend page](/backend#testing).
 
 ## Table of Contents
-- 
+- [Sending Requests](#sending-requests)
+- [Request Modifiers](#request-modifiers)
+	- [Query Parameters](#query-parameters)
+	- [Authentication](#authentication)
+	- [Headers](#headers)
+	- [Payload](#payload)
+- [Practice](#practice)
 
 ## Sending Requests
 Your screen will look like the following once you enter a workspace. Some things to take note of is ensuring that you have Desktop Agent Enabled, this will appear on the bottom right 
@@ -40,13 +46,17 @@ You can add a payload using the Body tab of the request. This is mainly used for
 Send a request the MangaDex API looking for the Manga "***Frieren at the Furneral***". In your request, search where the status of the manga is either `ongoing` or `completed`. Read the [documentation](https://api.mangadex.org/docs/redoc.html#tag/Manga/operation/get-search-manga) to understand the parameters. Your response should be as follows.
 <details>
 <summary>See Request (Answer)</summary>
+
 Full URL Param:
 - `api.mangadex.org/manga?title=Frieren at the Funeral&status[]=ongoing&status[]=completed`
 - Postman:
 	- ![](https://cdn.discordapp.com/attachments/942218891952783421/1108242953522118656/image.png)
+
+
 </details>
 <details>
 <summary>See Response</summary>
+
 ```json
 {
     "result": "ok",
@@ -365,4 +375,5 @@ Full URL Param:
     "total": 2
 }
 ```
+
 <details>
