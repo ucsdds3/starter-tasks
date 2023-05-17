@@ -27,6 +27,7 @@ Receiving objects: 100% (3/3), done.
 $ cd temp
 ```
 2. If you do not yet have Python, install it from [here](https://www.python.org/downloads/). At the time of writing, I am using "Python 3.11.0". Create a Python virtual environment using `venv` and activate it.    
+
 ```bash
 python3 -m venv venv
 source venv/Scripts/activate
@@ -41,6 +42,7 @@ pip install Flask
 4. Install the "database" JSON file and move it to the root of the project directory. You can download if from [here](https://github.com/ucsdds3/starter-tasks-backend-1/blob/main/database.json).
 5. Create your server file. You can name it whatever you want but in this case, I use `server.py`. 
 6. Inside your Python file, import Flask and JSON as depicted in the code block. In addition, initialize your Flask app.
+
 ```python
 # Imports
 from flask import Flask, request
@@ -53,7 +55,7 @@ app = Flask(__name__)
 ```bash
 flask --app <your_py_file.py> --debug run
 ```
-9. For testing use Postman to send requests and receive responses. An example is show below.
+8. For testing use Postman to send requests and receive responses. An example is show below.
 ![postmanex](https://cdn.discordapp.com/attachments/942218891952783421/1106093606042869790/image.png)
 
 ## HTTP Methods
