@@ -1,3 +1,4 @@
+<link rel="shortcut icon" type="image/png" href="https://ds3.ucsd.edu/img/arrow.png">
 
 # Backend Task Two
 This task is to create a simple server in Python that handles `GET`, `POST`,  and `DELETE` request methods. These methods are the basics of any CRUD application. To see a working example of this task follow the [setup](#setup-of-example-of-task ) below.

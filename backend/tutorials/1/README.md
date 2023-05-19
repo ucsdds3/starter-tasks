@@ -1,3 +1,5 @@
+<link rel="shortcut icon" type="image/png" href="https://ds3.ucsd.edu/img/arrow.png">
+
 # Using Postman
 This tutorial will walk you through Postman and how to use various aspects of it. If you are looking for instructions to install Postman, see [the backend page](/backend#testing).
 

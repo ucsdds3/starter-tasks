@@ -1,3 +1,5 @@
+<link rel="shortcut icon" type="image/png" href="https://ds3.ucsd.edu/img/arrow.png">
+
 # DS3 Starter Tasks
 This repository/website contains tasks and trainings for members new to DS3 to complete. If finished with all of the tasks, report to the Infrastructure Director and notify of completion. 
 

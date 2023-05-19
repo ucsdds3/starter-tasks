@@ -1,3 +1,5 @@
+<link rel="shortcut icon" type="image/png" href="https://ds3.ucsd.edu/img/arrow.png">
+
 # Backend Task Overview
 
 ## Backend Tasks
